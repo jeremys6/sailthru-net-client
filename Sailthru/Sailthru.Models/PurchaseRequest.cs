@@ -119,5 +119,13 @@ namespace Sailthru.Models
         [JsonProperty(PropertyName = "tenders")]
         public ArrayList Tenders { get; set; }
 
+        /// <summary>
+        /// Get or sets the External Purchase Keys
+        /// <value>
+        /// The Purchase Key
+        /// </value>
+        /// </summary>
+        [JsonProperty(PropertyName = "purchase_keys")]
+        public Hashtable PurchaseKeys { get; set; }
    }
 }
